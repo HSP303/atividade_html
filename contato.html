@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<style>
+    * {
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        max-width: 1200px;
+    }
+    div{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        place-items: center;    
+    }
+    main form{
+        padding: 10px;
+    }
+    button{
+        width: 50%;
+        
+    }
+
+</style>
+<body>
+    <main>
+        <div>
+            <h1>Contato</h1>
+            <form>
+                <label for="inome">Nome:</label>
+                <input type="text" name="inome" id="inome" required>
+                <br>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="itel" id="itel" required>
+                <br>
+                <label for="iemail">Email:</label>
+                <input type="mail" name="iemail" id="inome" required>
+                <br>
+                <label for="isubject">Assunto:</label>
+                <input type="isubject" name="isubject" id="inome" required>
+                <br>
+                <label for="imsg">Mensagem:</label>
+                <input type="imsg" name="imsg" id="inome" required>
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
